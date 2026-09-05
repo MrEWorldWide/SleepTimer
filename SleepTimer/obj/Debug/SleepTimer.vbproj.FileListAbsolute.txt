@@ -1,0 +1,11 @@
+C:\Documents and Settings\BBarnett\My Documents\Visual Studio 2008\Projects\SleepTimer\SleepTimer\bin\Debug\SleepTimer.exe
+C:\Documents and Settings\BBarnett\My Documents\Visual Studio 2008\Projects\SleepTimer\SleepTimer\bin\Debug\SleepTimer.pdb
+C:\Documents and Settings\BBarnett\My Documents\Visual Studio 2008\Projects\SleepTimer\SleepTimer\bin\Debug\SleepTimer.xml
+C:\Documents and Settings\BBarnett\My Documents\Visual Studio 2008\Projects\SleepTimer\SleepTimer\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\BBarnett\My Documents\Visual Studio 2008\Projects\SleepTimer\SleepTimer\obj\Debug\WindowsApplication1.Mainfrm.resources
+C:\Documents and Settings\BBarnett\My Documents\Visual Studio 2008\Projects\SleepTimer\SleepTimer\obj\Debug\WindowsApplication1.Resources.resources
+C:\Documents and Settings\BBarnett\My Documents\Visual Studio 2008\Projects\SleepTimer\SleepTimer\obj\Debug\SleepTimer.vbproj.GenerateResource.Cache
+C:\Documents and Settings\BBarnett\My Documents\Visual Studio 2008\Projects\SleepTimer\SleepTimer\obj\Debug\SleepTimer.exe
+C:\Documents and Settings\BBarnett\My Documents\Visual Studio 2008\Projects\SleepTimer\SleepTimer\obj\Debug\SleepTimer.xml
+C:\Documents and Settings\BBarnett\My Documents\Visual Studio 2008\Projects\SleepTimer\SleepTimer\obj\Debug\SleepTimer.pdb
+C:\Documents and Settings\BBarnett\My Documents\Visual Studio 2008\Projects\SleepTimer\SleepTimer\obj\Debug\WindowsApplication1.Shutdownfrm.resources

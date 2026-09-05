@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="SleepTimer.exe" version="1.0.0.0" publicKeyToken="a1034e9a35588c18" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SleepTimer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SleepTimer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SleepTimer.exe" size="24576">
+      <assemblyIdentity name="SleepTimer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>pfryEq9egD4Orim7SmMpsmuCBzM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=BBARNETT-DELL\BBarnett" issuerKeyHash="1026d0d8f51fb35c1b7da2ec799009d94d1f7e5b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>A1hSz0kE0onvdQXF24/PSN2oK/I=</DigestValue></Reference></SignedInfo><SignatureValue>WUSm7FaLREo0J94hyuWUFe2oaV9oj8ozEluJm76Orik9oJtPBBBwm0U6wjEij1AzTQYb9CdB/IYKBWAHKpd5y9jg1he/Par3ubgFFt15NcP4juRjR4+vy5LFAnFKeBZ80/Wmul/jv6ULZWEJtCt0DWbmSsnKwCoyYM0LKxWNZzo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vcqzGb+DAcn7aXlVjr3e9x87d9bjCt9DY6J5AGj3BKKLK7uz9hTh7jxUZYwpVvCbEnBnxNSPiHui07rYeMtFWLbIAX7yS0liibEb8JXJiWQCzBu9hUcpORYYZbMbIOyBhctasFs2SabA86kFvQKVR/iHNHpPSGBrS6pND4GDJXk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f22ba8dd48cf8fdbc50575ef89d20449cf525803" Description="" Url=""><as:assemblyIdentity name="SleepTimer.exe" version="1.0.0.0" publicKeyToken="a1034e9a35588c18" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BBARNETT-DELL\BBarnett</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>5g9EXllSpdgMb+iCvq7RyTOvqOg=</DigestValue></Reference></SignedInfo><SignatureValue>OovG2bzjupy380BMl+O4VKKREjNLdEw31TukfxMRVZkWnMmpnNB60z2V6J0yyscHOmaTQhDEa1cleTpT+izXp5vzwYCNlhhYFs7mbPmeZAokEKCDm67RIqo0jybSn3xk6XmTE9V+Z03tJvS5neP29DFZryVRT1fMWNRrE6QVyvI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vcqzGb+DAcn7aXlVjr3e9x87d9bjCt9DY6J5AGj3BKKLK7uz9hTh7jxUZYwpVvCbEnBnxNSPiHui07rYeMtFWLbIAX7yS0liibEb8JXJiWQCzBu9hUcpORYYZbMbIOyBhctasFs2SabA86kFvQKVR/iHNHpPSGBrS6pND4GDJXk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVagAwIBAgIQIcdbILmF/otNaoJK1frwsTAJBgUrDgMCHQUAMDcxNTAzBgNVBAMeLABCAEIAQQBSAE4ARQBUAFQALQBEAEUATABMAFwAQgBCAGEAcgBuAGUAdAB0MB4XDTEzMDExNDAzNDEyNVoXDTE0MDExNDA5NDEyNVowNzE1MDMGA1UEAx4sAEIAQgBBAFIATgBFAFQAVAAtAEQARQBMAEwAXABCAEIAYQByAG4AZQB0AHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL3Ksxm/gwHJ+2l5VY693vcfO3fW4wrfQ2OieQBo9wSiiyu7s/YU4e48VGWMKVbwmxJwZ8TUj4h7otO62HjLRVi2yAF+8ktJYomxG/CVyYlkAswbvYVHKTkWGGWzGyDsgYXLWrBbNkmmwPOpBb0ClUf4hzR6T0hga0uqTQ+BgyV5AgMBAAEwCQYFKw4DAh0FAAOBgQBDibYerFxMCPbO9kSvCKe4p6VY96WL5gLwjxcDxexz84AtHDMOLO1ljKDRaOc+vn3DQqM+QYkGg9GneiAodCsHq3HbVP/lffAmaIuzm4fxK0pp71n42zvvHN/14LQFMF8E2Z2VzXoSeV5UNJGhC6W39Ev/MyzFrr8F+JeXTy79ww==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
